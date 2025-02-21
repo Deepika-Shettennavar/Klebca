@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Movie Search</title>
+    <head>
+    <link href="/CSS/search.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+        <div class="search-bar">
+            <input type="text" placeholder="🔍Search for movies, shows, and more...">
+        </div>
+        <h3>Genres</h3>
+        <div class="container">
+            <div>
+                <h3>Action and adventure</h3>
+            </div>
+            <div>
+                <h3>Fantasy</h3>
+            </div>
+            <div>
+                <h3>Anime</h3>
+            </div><br>
+            <div>
+                <h3>Comedy</h3>
+            </div>
+            <div>
+                <h3>Documentary</h3>
+            </div>
+            <div>
+                <h3>Drama</h3>
+            </div>
+            <div class="hidden">
+                <h3>Horror</h3>
+            </div>
+            <div class="hidden">
+                <h3>Kids</h3>
+            </div>
+            <div class="hidden">
+                <h3>Sci-fi</h3>
+            </div>
+            <div class="hidden">
+                <h3>Thriller</h3>
+            </div>
+        </div>
+        <button type="button" id="see-more-btn">See more</button>
+    </form>
+
+    <script>
+        document.getElementById('see-more-btn').addEventListener('click', function() {
+            const hiddenGenres = document.querySelectorAll('.hidden');
+            hiddenGenres.forEach(function(genre) {
+                genre.classList.remove('hidden');
+            });
+            this.style.display = 'none';
+        });
+    </script>
+       <h4 class="language-option" onclick="window.location.href='kannada.html'">Kannada</h4>
+       <hr>
+       <h4 class="language-option" onclick="window.location.href='hindi.html'">English</h4>
+       <hr>
+       <h4 class="language-option" onclick="window.location.href='kannada.html'">Telugu</h4>
+       <hr>
+       <h4 class="language-option" onclick="window.location.href='hindi.html'">Hindi</h4>
+       <hr>
+       <h4 class="language-option" onclick="window.location.href='kannada.html'">Tamil</h4>
+       <hr>
+       <h4 class="language-option" onclick="window.location.href='hindi.html'">Malayalam</h4>
+       <hr>
+       <h4 class="language-option" onclick="window.location.href='hindi.html'">Marathi</h4>
+       <hr>
+       <h4 class="language-option" onclick="window.location.href='kannada.html'">Punjabi</h4>
+       <footer>
+        <div class="home">
+            <a href="home.html">Home</a>
+            <a href="prime.html">Prime</a>
+            <a href="subscription.html">Subscriptions</a>
+            <a href="downloads.html">Downloads</a>
+            <a href="search.html">Search</a>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+
+
