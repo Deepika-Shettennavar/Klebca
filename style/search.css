@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #070a36;
+    margin: 0;
+    padding: 0;
+}
+
+.search-bar {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+}
+
+.search-bar input[type="text"] {
+    width: 80%;
+    padding: 20px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+
+h3 {
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container div {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #c2bbbb;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8f8b8b;
+}
+
+.language-option {
+    color: #fdf7f7;
+    cursor: pointer;
+    text-align: left;
+    margin: 5px 0;
+}
+
+.language-option:hover {
+    color: #7a7b7c;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #7c7a7a;
+    margin: 20px 0;
+}
+footer {
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    color: #f2f2f2;
+    text-decoration: none;
+    padding: 10px;
+}
+
+footer a:hover {
+    color: #ddd;
+}
